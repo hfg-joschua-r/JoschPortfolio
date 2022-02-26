@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    h1 {
+        @apply font-heading
+    }
+    p {
+        @apply font-sans
+    }
+    h4 {
+        @apply font-light
+    }
+    @font-face {
+        font-family: 'MaisonNeueBook';
+        src: url('./assets/fonts/MaisonNeue/MaisonNeue-Book.ttf') format('truetype');
+    }
+    @font-face {
+        font-family: 'MaisonNeueMedium';
+        src: url('./assets/fonts/MaisonNeue/MaisonNeue-Medium.ttf') format('truetype');
+    }
+    @font-face {
+        font-family: 'MaisonNeueLight';
+        src: url('./assets/fonts/MaisonNeue/MaisonNeue-Light.ttf') format('truetype');
+    }
+}
+
+body,
+html {
+    background-color: #005662;
+}
+
+.primaryColor {
+    color: #00838F,
+}
+
+.primaryColorDark {
+    color: #005662
+}
+
+.primaryColorLight {
+    color: #4FB3BF,
+}
+
+.secondaryColor {
+    color: #D9B5A0;
+}
