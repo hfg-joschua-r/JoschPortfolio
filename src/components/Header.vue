@@ -1,13 +1,13 @@
 <template>
-<div class="flex justify-end">
+<div class="flex lg:justify-end justify-center">
   <div>
-      <p class="text-xl mx-4 secondaryColor">projects</p>
+      <p class="2xl:text-2xl text-sm mx-4 secondaryColor">projects</p>
   </div>
   <div>
-      <p class="text-lg mx-4 secondaryColor">about me</p>
+      <p class="2xl:text-2xl text-sm mx-4 secondaryColor">about me</p>
   </div>
   <div>
-      <p class="text-lg mx-4 secondaryColor">contact</p>
+      <p class="2xl:text-2xl text-smmx-4 secondaryColor">contact</p>
   </div>
 </div>
 </template>

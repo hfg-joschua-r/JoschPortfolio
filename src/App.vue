@@ -1,5 +1,5 @@
 <template>
-  <div class="md:container md:mx-auto mt-10">
+  <div class="md:container md:mx-auto mt-10 mx-2 ">
     <Header/>
     <MainPart/>
   </div>
