@@ -7,7 +7,7 @@
       <p class="2xl:text-2xl text-sm mx-4 secondaryColor">about me</p>
   </div>
   <div>
-      <p class="2xl:text-2xl text-smmx-4 secondaryColor">contact</p>
+      <p class="2xl:text-2xl text-sm mx-4 secondaryColor">contact</p>
   </div>
 </div>
 </template>
