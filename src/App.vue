@@ -1,11 +1,10 @@
 <template>
-  <div class="md:container md:mx-auto mt-10 mx-2 ">
+  <div class="md:container md:mx-auto mt-10 mx-4 ">
     <Header/>
     <MainPart/>
-    <p class="brackets 2xl:text-5xl text-xl -ml-8 mt-64">&lt;projects&gt;</p>
-      
+    <p class="brackets 2xl:text-5xl text-xl 2xl:-ml-12 xl:mt-64 mt-20">&lt;projects&gt;</p>
     <Projects class=""/>
-    <p class="brackets 2xl:text-5xl text-xl -ml-8">&lt;/projects&gt;</p>
+    <p class="brackets 2xl:text-5xl text-xl 2xl:-ml-12">&lt;/projects&gt;</p>
   </div>
 </template>
 
