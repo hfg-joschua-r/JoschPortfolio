@@ -1,8 +1,8 @@
 <template>
   <div class="grid lg:gap-y-2 grid-cols-5 xl:grid-rows-5">
     <div class="md:col-span-5 col-span-5 xl:row-span-1">
-      <h1 class="title font-normal lg:text-5xl text-3xl text-left">{{ title }}</h1>
-      <h1 class="primeHeader xl:mt-2 lg:text-xl text-lg text-left">{{ tags }}</h1>
+      <h1 class="title font-normal lg:text-5xl text-2xl text-right">{{ title }}</h1>
+      <h1 class="primeHeader xl:mt-2 lg:text-xl text-lg text-right">{{ tags }}</h1>
     </div>
 
     
@@ -12,8 +12,6 @@
             {{ description }}
         </p>
     </div>
-
-    
 
   </div>
 </template>

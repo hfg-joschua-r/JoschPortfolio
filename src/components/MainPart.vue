@@ -9,9 +9,9 @@
     <h1 class="lg:text-8xl text-5xl primeHeader col-span-2">
       <VueWriter :array="arr" :eraseSpeed="50" :typeSpeed="100"/></h1>
     <div class="col-span-3">
-      <h4 class="2xl:text-2xl text-sm text-white">currently I’m studying</h4>
+      <h4 class="2xl:text-2xl text-lg text-white">currently I’m studying</h4>
     </div>
-    <div class="2xl:text-2xl text-sm text- col-span-2">
+    <div class="2xl:text-2xl text-lg text- col-span-2">
       <p class="text-white">
         <b class="secondaryColor font-normal">Digital product design & development </b>@HfG Schwäbisch Gmünd</p>
     </div>
