@@ -11,22 +11,27 @@
         <p class="mx-4 lg:my-8 my-4 md:my-20 md:text-xl text-md text-white descriptionText">
             {{ description }}
         </p>
+        <project-button :link="link1" :title="buttonTitle"/>
     </div>
-
-    
-
   </div>
 </template>
 
 <script>
+import projectButton from "././projectButton.vue";
+
 export default {
   props: {
     title: String,
     tags: String,
     imgSrc: String,
     description: String,
+    buttonTitle: String,
     link1: String,
   },
+  components: {
+    projectButton,
+  },
+
 };
 </script>
 
