@@ -1,11 +1,16 @@
 <template>
 <div class="flex">
-<button :href="link" class="buttonClass hover:bg-blue-500 font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded">
+<a :href="link">
+<button  class="buttonClass hover:bg-blue-500 font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded">
   {{ title }}
 </button>
-<button :href="link2" class="mx-4 buttonClass hover:bg-blue-500 font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded">
+</a>
+
+<a :href="link2">
+<button class="mx-4 buttonClass hover:bg-blue-500 font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded" v-if="title2 != ''">
   {{ title2 }}
 </button>
+</a>
 </div>
 </template>
 

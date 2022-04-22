@@ -3,8 +3,10 @@
     <project class="lg:mt-10 mt-14" title="WiWa - a wildlife crossing warning system" tags="Prototyping * RaspberryPi * ReDesign" imgSrc="./images/wiwa.png"
       link1="https://hfg-gmuend.de" buttonTitle="Documentation & More" link2="https://youtube.de" buttonTitle2="Video" description="WiWa is a sensor system attached to the delineator, which warns the driver both locally at danger spots and collects and analyses the data externally."/>
         <!-- Project component with img attribute, text, tags & links -->
-    <project-right-align class="lg:mt-24 mt-14" title="Burgpilz - Ventilation control system" tags="MQTT * Arduino * IoT" imgSrc="./images/wiwa.png"
+    <project-right-align class="lg:mt-24 mt-14" title="Burgpilz - Ventilation control system" tags="MQTT * Arduino * IoT" imgSrc="./images/burgpilz.png"
     link1="https://hfg-gmuend.de" buttonTitle="Documentation & More" link2="https://youtube.de" buttonTitle2="Video" description="A ventilation control system to generate optimal climatic conditions for professionally  mushroom cultivation in organic quality."/>
+    <project class="lg:mt-24 mt-14" imgSrc="./images/remotegardening.png" title="Remote Gardening" tags="Arduino * RFID * Full-Stack" link1="https://hfg-gmuend.de" buttonTitle="Documentation & More" link2="https://youtube.de" buttonTitle2="Video" description="Who takes care of my plants when I am not at home or on holiday? The Remote Gardening project was developed to ensure that your plants are always healthy and optimally watered: The smart bed can be controlled from anywhere and networked with friends."/>
+  
   </div>
 </template>
 <script>
