@@ -11,20 +11,28 @@
         <p class="mx-4 lg:my-8 my-4 md:my-20 md:text-xl text-md text-white descriptionText">
             {{ description }}
         </p>
+        <projectButton :link="link1" :title="buttonTitle" :link2="link2" :title2="buttonTitle2" class="mx-4 lg:my-auto my-2" />
     </div>
 
   </div>
 </template>
 
 <script>
+import projectButton from "././projectButton.vue";
 export default {
   props: {
     title: String,
     tags: String,
     imgSrc: String,
     description: String,
+    buttonTitle: String,
     link1: String,
+    link2: String,
+    buttonTitle2: String
   },
+  components: {
+    projectButton
+  }
 };
 </script>
 
@@ -38,4 +46,5 @@ export default {
 .descriptionText {
     font-family: 'MaisonNeueLight';
 }
+
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="md:container md:mx-auto mt-10 mx-4 ">
+  <div class="md:container md:mx-auto mt-10 mx-4 root">
     <Header/>
     <MainPart class="xl:mt-20"/>
     <p class="brackets 2xl:text-5xl text-3xl 2xl:-ml-24 -ml-2 xl:mt-64 mt-32">&lt;projects&gt;</p>
