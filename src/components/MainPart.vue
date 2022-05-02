@@ -4,7 +4,7 @@
       Hi, my name is Josch.
       <VueWriter :array="arr" :eraseSpeed="50" :typeSpeed="100" />
     </h1>
-    <div class="sm:col-span-1 sm:row-span-2 row-span-1 2xl:w-max w-auto mx-auto my-auto">
+    <div class="sm:col-span-1 row-span-2 2xl:w-max w-auto mx-auto my-auto">
       <!-- <img src="../assets/img/pixelMe.png" class="mt-auto scale-125" /> -->
      <model/>      
     </div>
@@ -37,9 +37,7 @@ export default {
     };
   },
   mounted() {
-    AOS.init({
-      duration: 1000,
-    });
+    AOS.init();
   },
 };
 </script>

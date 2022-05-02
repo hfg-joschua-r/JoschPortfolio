@@ -1,5 +1,5 @@
 <template>
-<form class="w-full max-w-lg container mt-8 form" ref="form" @submit.prevent="sendEmail" data-aos="flip-left" data-aos-offset="700">
+<form class="w-full max-w-lg container mt-8 form" ref="form" @submit.prevent="sendEmail" data-aos="flip-left" data-aos-offset="400">
   <div class="flex flex-wrap mx-2 mb-4 mt-2">
     <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0 mt-4">
       <label class="block uppercase tracking-wide text-white text-xs font-bold mb-1" for="grid-first-name">
@@ -52,7 +52,6 @@ export default {
   },
   mounted() {
     AOS.init({
-      duration: 1000,
     });
   }
 }
