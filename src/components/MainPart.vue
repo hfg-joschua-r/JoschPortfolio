@@ -8,7 +8,7 @@
       <!-- <img src="../assets/img/pixelMe.png" class="mt-auto scale-125" /> -->
      <model/>      
     </div>
-    <div class="col-span-3 lg:text-2xl text-lg  text-white">
+    <div class="col-span-3 lg:text-2xl text-lg  text-white" data-aos="fade-right">
       <h4 >currently I’m studying<br>
       <b class="secondaryColor font-normal"
           >Digital product design & development </b
@@ -19,7 +19,8 @@
 </template>
 
 <script>
- import model from "./model.vue";
+import model from "./model.vue";
+import AOS from "aos";
 export default {
   components: {
      model
@@ -34,6 +35,11 @@ export default {
         "I'm a coder.",
       ],
     };
+  },
+  mounted() {
+    AOS.init({
+      duration: 1000,
+    });
   },
 };
 </script>

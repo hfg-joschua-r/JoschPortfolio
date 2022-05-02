@@ -1,5 +1,5 @@
 <template>
-  <div class="grid gap-y-2 grid-cols-5 mt-8" >
+  <div class="grid gap-y-2 grid-cols-5 mt-8" data-aos="flip-right" data-aos-offset="400">
     <div class="lg:col-span-3 col-span-5 container">
       <p class="text-xl text-white mx-4 my-6 text-light">
         <i>Hello! My name is Joschua and I enjoy creating things that simultaneouly
@@ -15,7 +15,14 @@
 </template>
 
 <script>
-export default {};
+import AOS from "aos";
+export default {
+  mounted() {
+    AOS.init({
+      duration: 1000,
+    });
+  },
+};
 </script>
 
 <style>

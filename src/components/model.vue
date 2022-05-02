@@ -14,7 +14,7 @@
   >
     <Camera :position="{ x: 0, y: 0, z: 120 }" />
     <Scene background="#005662">
-      <AmbientLight :intensity="0.7" color="#D9FAFF" />
+      <AmbientLight :intensity="0.9" color="#D9FAFF" />
       <PointLight
         ref="light"
         :position="{ z: 80 }"
@@ -56,7 +56,6 @@ export default {
   },
   methods: {
     resizeHandler() {
-      console.log(window.innerWidth);
       this.$refs.renderer.three.setSize(window.innerWidth / 3, window.innerWidth / 3);
     },
   },

@@ -1,5 +1,5 @@
 <template>
-  <div class="grid lg:gap-y-2 grid-cols-5 xl:grid-rows-5">
+  <div class="grid lg:gap-y-2 grid-cols-5 xl:grid-rows-5" data-aos="fade-left">
     <div class="md:col-span-5 col-span-5 xl:row-span-1">
       <h1 class="title font-normal lg:text-5xl text-2xl text-right">{{ title }}</h1>
       <h1 class="primeHeader xl:mt-2 lg:text-xl text-lg text-right">{{ tags }}</h1>
@@ -19,6 +19,7 @@
 
 <script>
 import projectButton from "././projectButton.vue";
+import AOS from "aos";
 export default {
   props: {
     title: String,
@@ -32,7 +33,12 @@ export default {
   },
   components: {
     projectButton
-  }
+  },
+  mounted() {
+    AOS.init({
+      duration: 1750,
+    });
+  },
 };
 </script>
 

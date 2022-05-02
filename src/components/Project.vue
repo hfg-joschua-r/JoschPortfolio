@@ -1,5 +1,5 @@
 <template>
-  <div class="grid lg:gap-y-2 grid-cols-5 xl:grid-rows-5">
+  <div class="grid lg:gap-y-2 grid-cols-5 xl:grid-rows-5" data-aos="fade-right">
     <div class="md:col-span-5 col-span-5 xl:row-span-1">
       <h1 class="title font-normal lg:text-5xl text-3xl text-left">
         {{ title }}
@@ -40,9 +40,9 @@
   </div>
 </template>
 
-<script>
+<script >
 import projectButton from "././projectButton.vue";
-
+import AOS from "aos";
 
 export default {
   props: {
@@ -58,6 +58,12 @@ export default {
   },
   components: {
     projectButton,
+  },
+  mounted() {
+    AOS.init({
+      duration: 1750,
+      offset: 100
+    });
   },
 };
 </script>

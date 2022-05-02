@@ -1,7 +1,7 @@
 <template>
   <div class="md:container md:mx-auto mt-10 mx-4 root">
     <!-- Header part -->
-    <div class="flex lg:justify-end justify-center">
+    <div class="flex lg:justify-end justify-center"  data-aos="fade-left">
       <div>
         <p class="2xl:text-2xl text-lg mx-4 secondaryColor" @click="goto('projects')" >projects</p>
       </div>
@@ -45,6 +45,7 @@ import MainPart from "./components/MainPart.vue";
 import Projects from "./components/Projects.vue";
 import aboutMe from "./components/aboutMe.vue";
 import contact from "./components/contact.vue";
+import AOS from "aos";
 
 export default {
   name: "App",
@@ -61,7 +62,10 @@ export default {
 
       window.scrollTo(0, top);
     }
-  }
+  },
+  mounted() {
+    AOS.init();
+  },
 };
 </script>
 <style>
