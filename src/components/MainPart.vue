@@ -1,26 +1,19 @@
 <template>
   <div class="grid grid-cols-3 grid-rows-2">
-    
-    <h1 class="lg:text-8xl text-5xl primeHeader font-normal mt-20 col-span-2 ">
+    <h1 class="lg:text-7xl text-4xl primeHeader font-normal mt-20 col-span-2 lg:row-span-2 ">
       Hi, my name is Josch.
+      <VueWriter :array="arr" :eraseSpeed="50" :typeSpeed="100" />
     </h1>
     <div class="sm:col-span-1 sm:row-span-2 row-span-1 2xl:w-max w-auto mx-auto my-auto">
       <!-- <img src="../assets/img/pixelMe.png" class="mt-auto scale-125" /> -->
      <model/>      
     </div>
-    <h1 class="lg:text-8xl text-5xl primeHeader col-span-2 ">
-      <VueWriter :array="arr" :eraseSpeed="50" :typeSpeed="100" />
-    </h1>
-    <div class="col-span-3">
-      <h4 class="2xl:text-2xl text-lg text-white">currently I’m studying</h4>
-    </div>
-    
-    <div class="2xl:text-2xl text-lg text- col-span-2">
-      <p class="text-white">
-        <b class="secondaryColor font-normal"
+    <div class="col-span-3 lg:text-2xl text-lg  text-white">
+      <h4 >currently I’m studying<br>
+      <b class="secondaryColor font-normal"
           >Digital product design & development </b
         >@HfG Schwäbisch Gmünd
-      </p>
+        </h4>
     </div>
   </div>
 </template>
