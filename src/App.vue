@@ -3,13 +3,13 @@
     <!-- Header part -->
     <div class="flex lg:justify-end justify-center"  data-aos="fade-left">
       <div>
-        <p class="2xl:text-2xl text-lg mx-4 secondaryColor" @click="goto('projects')" >projects</p>
+        <p class="2xl:text-2xl text-lg mx-4 secondaryColor clickable" @click="goto('projects')" >projects</p>
       </div>
       <div>
-        <p class="2xl:text-2xl text-lg mx-4 secondaryColor" @click="goto('about-me')">about me</p>
+        <p class="2xl:text-2xl text-lg mx-4 secondaryColor clickable" @click="goto('about-me')">about me</p>
       </div>
       <div>
-        <p class="2xl:text-2xl text-lg mx-4 secondaryColor" @click="goto('contact')">contact</p>
+        <p class="2xl:text-2xl text-lg mx-4 secondaryColor clickable" @click="goto('contact')">contact</p>
       </div>
     </div>
     <!-- End of header part -->
@@ -82,5 +82,8 @@ export default {
 }
 html {
   scroll-behavior: smooth;
+}
+.clickable {
+  cursor: pointer;
 }
 </style>
