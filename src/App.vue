@@ -73,7 +73,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
-  color: #2c3e50;
+  color: #001E22;
   margin-top: 60px;
 }
 .brackets {
