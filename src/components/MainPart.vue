@@ -1,6 +1,6 @@
 <template>
-  <div class="grid grid-cols-3 grid-rows-2">
-    <h1 class="lg:text-7xl text-4xl primeHeader font-normal mt-20 col-span-2 lg:row-span-2 ">
+  <div class="grid grid-cols-3 sm:grid-rows-2 grid-rows-5">
+    <h1 class="lg:text-7xl text-4xl primeHeader font-normal sm:mt-20 mt-10 col-span-2 sm:row-span-2 row-span-4">
       Hi, my name is Josch.
       <VueWriter :array="arr" :eraseSpeed="50" :typeSpeed="100" />
     </h1>
@@ -8,7 +8,7 @@
       <!-- <img src="../assets/img/pixelMe.png" class="mt-auto scale-125" /> -->
      <model/>      
     </div>
-    <div class="col-span-3 lg:text-2xl text-lg  text-white" data-aos="fade-right">
+    <div class=" row-span-1 col-span-3 lg:text-2xl text-lg  text-white" data-aos="fade-right">
       <h4 >currently I’m studying<br>
       <b class="secondaryColor font-normal"
           >Digital product design & development </b
