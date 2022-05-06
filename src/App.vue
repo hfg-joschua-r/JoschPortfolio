@@ -85,5 +85,10 @@ html {
 }
 .clickable {
   cursor: pointer;
+  
+}
+.clickable:hover {
+ /* Hover effect */
+  
 }
 </style>
