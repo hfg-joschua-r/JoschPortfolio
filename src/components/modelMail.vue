@@ -13,16 +13,16 @@
     resize
     @onResize="resizeHandler"
   >
-    <Camera :position="{ x: 2, y: 1, z: 0 }" />
+    <Camera :position="{ x: 1, y: .5, z: 0 }" :zoom="3" :fov="9"/>
     <Scene background="#001E22">
       <AmbientLight :intensity="0.9" color="#D9FAFF" />
       <PointLight
         ref="light"
-        :position="{ z: 80 }"
+        :position="{ z: 10 }"
         :intensity="2"
         color="#D9FAFF"
       />
-      <GltfModel src="./models/keyboard.glb" ref="model" />
+      <GltfModel src="./models/keyboard2.glb" ref="model" />
     </Scene>
   </Renderer>
 </template>
@@ -57,7 +57,7 @@ export default {
   },
   methods: {
     resizeHandler() {
-      this.$refs.renderer.three.setSize(window.innerWidth /3, window.innerWidth/ 4);
+      this.$refs.renderer.three.setSize(window.innerWidth /2, window.innerWidth/ 4);
     },
   },
   mounted() {
