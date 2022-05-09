@@ -1,37 +1,63 @@
 <template>
-<div class="flex">
-<a :href="link">
-<button  class="buttonClass font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded">
-  {{ title }}
-</button>
-</a>
+  <div class="flex">
+    <a :href="link" target="_blank">
+      <button
+        class="
+          buttonClass
+          font-semibold
+          sm:text-base
+          text-sm
+          hover:text-white
+          py-2
+          px-4
+          hover:border-transparent
+          rounded
+        "
+      >
+        {{ title }}
+      </button>
+    </a>
 
-<a :href="link2">
-<button class="mx-4 buttonClass font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded" v-if="title2 != ''">
-  {{ title2 }}
-</button>
-</a>
-</div>
+    <a :href="link2" target="_blank">
+      <button
+        class="
+          mx-4
+          buttonClass
+          font-semibold
+          sm:text-base
+          text-sm
+          hover:text-white
+          py-2
+          px-4
+          hover:border-transparent
+          rounded
+        "
+        v-if="title2 != ''"
+      >
+        {{ title2 }}
+      </button>
+    </a>
+  </div>
 </template>
 
 <script>
 export default {
- props: {
+  props: {
     title: String,
     link: String,
     title2: String,
     link2: String,
   },
-}
+};
 </script>
 
 <style>
 .buttonClass {
   background-color: transparent;
-  border: 2px #D9B5A0 solid;
-  color: #D9B5A0
+  border: 2px #d9b5a0 solid;
+  color: #d9b5a0;
 }
 .buttonClass:hover {
-  background-color: #D9B5A0;
+  background-color: #d9b5a0;
 }
 </style>
