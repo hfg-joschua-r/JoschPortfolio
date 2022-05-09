@@ -3,7 +3,7 @@
     <!-- Header part -->
     <div class="flex lg:justify-end justify-center"  data-aos="fade-left">
       <div>
-        <p class="2xl:text-2xl text-lg mx-4 secondaryColor clickable" @click="goto('projects')" >projects</p>
+        <p class="2xl:text-2xl text-lg mx-4 secondaryColor clickable" @click="goto('projects') " >projects</p>
       </div>
       <div>
         <p class="2xl:text-2xl text-lg mx-4 secondaryColor clickable" @click="goto('about-me')">about me</p>
@@ -14,7 +14,7 @@
     </div>
     <!-- End of header part -->
     <MainPart class="xl:mt-20" />
-    <p class="brackets 2xl:text-5xl text-3xl 2xl:-ml-24 -ml-2 xl:mt-64 mt-32" ref="projects">
+    <p class="brackets 2xl:text-5xl text-3xl 2xl:-ml-24 -ml-2 xl:mt-64 mt-32 mb-10" ref="projects">
       &lt;projects&gt;
     </p>
     <Projects />
@@ -85,5 +85,8 @@ html {
 }
 .clickable {
   cursor: pointer;
+}
+.clickable:hover {
+  text-shadow:1px 1px 4px #e7aa87, 1px 1px 4px #ffcbad;
 }
 </style>

@@ -10,8 +10,8 @@
     </div>
     <div class=" row-span-1 col-span-3 lg:text-2xl text-lg  text-white" data-aos="fade-right">
       <h4 >currently I’m studying<br>
-      <b class="secondaryColor font-normal"
-          >Digital product design & development </b
+      <b class="secondaryColor font-normal clickable"
+          ><a href="https://www.hfg-gmuend.de/studium/internet-der-dinge" target="_blank">Digital product design & development </a></b
         >@HfG Schwäbisch Gmünd
         </h4>
     </div>
@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import model from "./model.vue";
+import model from "./modelMe.vue";
 import AOS from "aos";
 export default {
   components: {
