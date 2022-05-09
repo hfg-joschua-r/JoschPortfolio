@@ -1,6 +1,6 @@
 <template>
 <div class="grid gap-y-2 grid-cols-5">
-<form class="w-full col-span-5 sm:col-span-3 max-w-lg container mt-8 form rounded-sm" ref="form" @submit.prevent="sendEmail" data-aos="fade-right">
+<form class="w-full col-span-5 sm:col-span-3 lg:col-span-2 max-w-lg container mt-8 form rounded-sm" ref="form" @submit.prevent="sendEmail" data-aos="fade-right">
   <div class="flex flex-wrap mx-2 mb-4 mt-2">
     <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0 mt-4">
       <label class="block uppercase tracking-wide text-white text-xs font-bold mb-1" for="grid-first-name">
@@ -35,7 +35,7 @@
     </div>
   </div>
 </form>
-<div class="sm:col-span-2 col-span-5 mx-auto">
+<div class="sm:col-span-2 lg:col-span-3 col-span-5 mx-auto">
 <modelMail></modelMail>
 </div>
 </div>
