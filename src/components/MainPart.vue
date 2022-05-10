@@ -10,7 +10,7 @@
     </div>
     <div class=" row-span-1 col-span-3 lg:text-2xl text-lg  text-white" data-aos="fade-right">
       <h4 >currently I’m studying<br>
-      <b class="secondaryColor font-normal clickable"
+      <b class="font-normal clickableStudy"
           ><a href="https://www.hfg-gmuend.de/studium/internet-der-dinge" target="_blank">Digital product design & development </a></b
         >@HfG Schwäbisch Gmünd
         </h4>
@@ -45,5 +45,12 @@ export default {
 <style>
 .primeHeader {
   color: #4fb3bf;
+}
+.clickableStudy {
+  cursor: pointer;
+  color: #4fb3bf;
+}
+.clickableStudy:hover {
+  text-shadow:1px 1px 4px #265055, 1px 1px 4px #4fb3bf;
 }
 </style>

@@ -64,7 +64,9 @@ export default {
     }
   },
   mounted() {
-    AOS.init();
+    AOS.init({
+      once: true,
+    });
   },
 };
 </script>
@@ -77,7 +79,7 @@ export default {
   margin-top: 60px;
 }
 .brackets {
-  color: #00838f;
+  color: #668892;
   font-family: "MaisonNeueMedium";
 }
 html {
@@ -85,13 +87,8 @@ html {
 }
 .clickable {
   cursor: pointer;
-  
 }
 .clickable:hover {
- /* Hover effect */
-  
-}
-.clickable:hover {
-  text-shadow:1px 1px 4px #e7aa87, 1px 1px 4px #ffcbad;
+  text-shadow:1px 1px 4px #533c2f, 1px 1px 4px #ffcbad;
 }
 </style>

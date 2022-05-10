@@ -14,7 +14,7 @@
     @onResize="resizeHandler"
   >
     <Camera :position="{ x: 0, y: 0, z: 120 }" />
-    <Scene background="#001E22">
+    <Scene background="#00161C">
       <AmbientLight :intensity="0.9" color="#D9FAFF" />
       <PointLight
         ref="light"

@@ -13,14 +13,14 @@
     resize
     @onResize="resizeHandler"
   >
-    <Camera :position="{ x: 1, y: .5, z: 0 }" :zoom="3" :fov="9"/>
-    <Scene background="#001E22">
-      <AmbientLight :intensity="0.9" color="#D9FAFF" />
+    <Camera :position="{ x: 1, y: .5, z: 0 }" :zoom="3" :fov="12"/>
+    <Scene background="#00161C">
+      <AmbientLight :intensity=".7" color="#D9FAFF" />
       <PointLight
         ref="light"
-        :position="{ z: 10 }"
-        :intensity="2"
-        color="#D9FAFF"
+        :position="{ z: 1, y:1 }"
+        :intensity="8"
+        color="#00161C"
       />
       <GltfModel src="./models/keyboard2.glb" ref="model" />
     </Scene>

@@ -35,8 +35,8 @@
       <div class="absolute top-0 left-0 px-6 py-4 container h-full" v-if="showText4">
           <h4 class="mb-1 lg:text-2xl sm:text-xl text-lg tracking-tight text-white font-normal">"Tanz mit dem Tiger" - AR Dance-Performance</h4>
           <h5 class="primeHeader mb-1 sm:mb-3 lg:text-lg text-sm font-semibold tracking-tight">Unity * C# * AR</h5>
-          <p class="leading-normal sm:text-lg text-sm text-gray-100 descriptionText">Here I supported the development of the AR development in Unity for the dance performance.  </p>
-        <projectButton link="https://www.widerstandundsoehne.de/projekte/tanz-mit-dem-tiger" title="Learn more" link2="https://www.burgpilz.de/" title2="Burgpilz" class="lg:my-6 my-2"></projectButton>
+          <p class="leading-normal sm:text-lg text-sm text-gray-100 descriptionText">In this project I supported the development of the AR development in Unity for the dance performance.  </p>
+        <projectButton link="https://www.widerstandundsoehne.de/projekte/tanz-mit-dem-tiger" title="Learn more" link2="https://www.roxy.ulm.de/programm/programm.php?vid=3792" title2="Roxy Ulm" class="lg:my-6 my-2"></projectButton>
       </div>
     </div>
 
