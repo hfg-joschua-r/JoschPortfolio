@@ -36,7 +36,7 @@
           <h4 class="mb-1 lg:text-2xl sm:text-xl text-lg tracking-tight text-white font-normal">"Workshop instructor - e.tage</h4>
           <h5 class="primeHeader mb-1 sm:mb-3 lg:text-lg text-sm font-semibold tracking-tight">Arduino * Teaching * Media education</h5>
           <p class="leading-normal sm:text-lg text-sm text-gray-100 descriptionText">In the school holidays I run workshops teaching Arduino to 9-12 year olds. </p>
-        <projectButton link="https://www.widerstandundsoehne.de/projekte/tanz-mit-dem-tiger" title="Learn more" link2="https://www.roxy.ulm.de/programm/programm.php?vid=3792" title2="Roxy Ulm" class="lg:my-6 my-2"></projectButton>
+        <projectButton link="https://www.etage-ulm.de/digitalgestalten/digitales-feuerwerk" title="Last Workshop" link2="https://www.etage-ulm.de/home" title2="e.tage" class="lg:my-6 my-2"></projectButton>
       </div>
     </div>
 
