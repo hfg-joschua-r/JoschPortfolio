@@ -22,7 +22,7 @@
         :intensity="8"
         color="#00161C"
       />
-      <GltfModel src="./models/keyboard2.glb" ref="model" />
+      <GltfModel src="./models/keyboard2.glb" ref="model" data-aos="fade-left" />
     </Scene>
   </Renderer>
 </template>

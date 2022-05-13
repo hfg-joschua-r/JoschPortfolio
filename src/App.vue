@@ -14,27 +14,27 @@
     </div>
     <!-- End of header part -->
     <MainPart class="xl:mt-20" />
-    <p class="brackets 2xl:text-5xl text-3xl 2xl:-ml-24 -ml-2 xl:mt-64 mt-32 mb-10" ref="projects">
+    <p class="brackets 2xl:text-5xl text-3xl 2xl:-ml-20 -ml-2 xl:mt-64 mt-32 mb-10" ref="projects">
       &lt;projects&gt;
     </p>
     <Projects />
-    <p class="brackets 2xl:text-5xl text-3xl 2xl:-ml-24 -ml-2 mt-10">
+    <p class="brackets 2xl:text-5xl text-3xl 2xl:-ml-20 -ml-2 mt-10">
       &lt;/projects&gt;
     </p>
 
-    <p class="brackets 2xl:text-5xl text-3xl 2xl:-ml-24 -ml-2 xl:mt-12 mt-8" ref="about-me">
+    <p class="brackets 2xl:text-5xl text-3xl 2xl:-ml-20 -ml-2 xl:mt-12 mt-8" ref="about-me">
       &lt;about-me&gt;
     </p>
     <aboutMe />
-    <p class="brackets 2xl:text-5xl text-3xl 2xl:-ml-24 -ml-2 mt-10">
+    <p class="brackets 2xl:text-5xl text-3xl 2xl:-ml-20 -ml-2 mt-10">
       &lt;/about-me&gt;
     </p>
 
-    <p class="brackets 2xl:text-5xl text-3xl 2xl:-ml-24 -ml-2 xl:mt-12 mt-8" ref="contact">
+    <p class="brackets 2xl:text-5xl text-3xl 2xl:-ml-20 -ml-2 xl:mt-12 mt-8" ref="contact">
       &lt;contact&gt;
     </p>
     <contact />
-    <p class="brackets 2xl:text-5xl text-3xl 2xl:-ml-24 -ml-2 mt-10">
+    <p class="brackets 2xl:text-5xl text-3xl 2xl:-ml-20 -ml-2 mt-10">
       &lt;/contact&gt;
     </p>
   </div>
