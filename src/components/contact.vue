@@ -193,6 +193,7 @@ export default {
         .then(
           (result) => {
             console.log("SUCCESS!", result.text);
+            this.$refs.form.reset();
           },
           (error) => {
             console.log("FAILED...", error.text);
