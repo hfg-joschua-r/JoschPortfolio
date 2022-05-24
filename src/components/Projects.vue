@@ -4,7 +4,7 @@
     <div class="2xl:col-span-2 2xl:row-span-2 col-span-2 transform transition duration-500 hover:scale-105 opacity-70 hover:opacity-100" v-on:click="showText1 = !showText1" >
         <img class="w-full rounded-lg" src=" .\images\wiwa.png" alt="WiWa thumbnail">
         <div class="absolute top-0 left-0 px-6 py-4 container h-full" v-if="showText1">
-          <h4 class="mb-1 lg:text-2xl sm:text-xl text-lg tracking-tight text-white font-normal">WiWa - a wildlife crossing warning system</h4>
+          <h4 class="mb-1 lg:text-2xl sm:text-xl text-md tracking-tight text-white font-normal">WiWa - a wildlife crossing warning system</h4>
           <h5 class="primeHeader mb-1 sm:mb-3 lg:text-lg text-sm font-semibold tracking-tight">Prototyping * RaspberryPi * ReDesign </h5>
           <p class="leading-normal sm:text-lg text-sm text-gray-100 descriptionText 2xl:w-3/5">WiWa is a sensor system attached to the delineator, which warns the driver locally at danger spots and collects & analyses it externally.</p>
         <projectButton link="https://ausstellung.hfg-gmuend.de/w-2122/projekte/wiwa-ein-wildwechsel-warnsystem/studiengang:iot" title="Documentation & More" link2="https://youtu.be/rXBEbwPFTkE" title2="Video" class="lg:my-8 my-2"></projectButton>
@@ -33,7 +33,7 @@
     <div class="2xl:col-span-1 2xl:row-span-1 col-span-2 transform transition duration-500 hover:scale-105 opacity-70 hover:opacity-100" v-on:click="showText4 = !showText4">
       <img class="w-full rounded-lg" src=" .\images\etage.png" />
       <div class="absolute top-0 left-0 px-6 py-4 container h-full" v-if="showText4">
-          <h4 class="mb-1 lg:text-2xl sm:text-xl text-lg tracking-tight text-white font-normal">"Workshop instructor - e.tage</h4>
+          <h4 class="mb-1 lg:text-2xl sm:text-xl text-lg tracking-tight text-white font-normal">Workshop instructor - e.tage</h4>
           <h5 class="primeHeader mb-1 sm:mb-3 lg:text-lg text-sm font-semibold tracking-tight">Arduino * Teaching * Media education</h5>
           <p class="leading-normal sm:text-lg text-sm text-gray-100 descriptionText">In the school holidays I run workshops teaching Arduino to 9-12 year olds. </p>
         <projectButton link="https://www.etage-ulm.de/digitalgestalten/digitales-feuerwerk" title="Last Workshop" link2="https://www.etage-ulm.de/home" title2="e.tage" class="lg:my-6 my-2"></projectButton>
