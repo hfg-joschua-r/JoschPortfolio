@@ -1,10 +1,13 @@
 <template>
   <div class="grid gap-y-2 grid-cols-5 mt-8" data-aos="fade-right">
-    <div class="lg:col-span-3 col-span-5 container rounded-sm">
-      <p class="text-xl text-white mx-4 my-6 text-light">
+    <div class="lg:col-span-3 col-span-5 rounded-sm">
+      <p class="text-xl text-white my-6 text-light container px-4 py-4">
+        
         <i>Hello! My name is Josch and I enjoy creating things that simultaneouly
-        live on the internet and in the real world.</i> <br><br> I got into programming
-        during a year-round internship in 2016. During this time I first learned 
+        live on the internet and in the real world.</i> <br> </p>
+
+     <p class="text-xl text-white mx-4 my-6 text-light">
+        I got into programming during a year-round internship in 2016. During this time I first learned 
         how to program <b>Arduino and C++,</b> later on I focused on <b>Unity and VR development.</b><br>
         After I finished my A-levels in 2019, I completed an internship as a software
         developer at Widerstand und Söhne in Ulm, where I got deeper into <b>C#, Unity and Nodejs.</b><br>
@@ -16,14 +19,12 @@
 
 <script>
 export default {
-  mounted() {
-  },
+  mounted() {},
 };
 </script>
 
 <style>
 .container {
-  background-color: rgb(0,131,134, .1);;
-  
+  background-color: rgb(0, 131, 134, 0.1);
 }
 </style>
