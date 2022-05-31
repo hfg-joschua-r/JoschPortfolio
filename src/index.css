@@ -13,15 +13,15 @@
     }
     @font-face {
         font-family: 'MaisonNeueBook';
-        src: url('./assets/fonts/MaisonNeue/MaisonNeue-Book.ttf') format('truetype');
+        src: url('./assets/fonts/inter/Inter-Regular.ttf') format('truetype');
     }
     @font-face {
         font-family: 'MaisonNeueMedium';
-        src: url('./assets/fonts/MaisonNeue/MaisonNeue-Medium.ttf') format('truetype');
+        src: url('./assets/fonts/inter/Inter-Medium.ttf') format('truetype');
     }
     @font-face {
         font-family: 'MaisonNeueLight';
-        src: url('./assets/fonts/MaisonNeue/MaisonNeue-Light.ttf') format('truetype');
+        src: url('./assets/fonts/inter/Inter-Light.ttf') format('truetype');
     }
 }
 
