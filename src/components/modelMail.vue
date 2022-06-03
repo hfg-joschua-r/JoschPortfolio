@@ -19,7 +19,7 @@
       <PointLight
         ref="light"
         :position="{ z: 1, y:1 }"
-        :intensity="8"
+        :intensity="8.1"
         color="#00161C"
       />
       <GltfModel src="./models/keyboard2.glb" ref="model" data-aos="fade-left" />
